@@ -338,5 +338,4 @@ def run_engine(team_a: TeamStats, team_b: TeamStats, bk_h: float, bk_d: float, b
         master_pct=master_pct, master_odds=master_odds, bookmaker_pct=bk_pct, value_margin=margin,
         model_consensus_draw_pct=dg.model_consensus_draw_pct, draw_diff_pct=dg.draw_diff_pct,
         lambda_home=dg.lambda_home, lambda_away=dg.lambda_away, top_markets=markets[:2], top_scores=scores
-)
-             
+    )
